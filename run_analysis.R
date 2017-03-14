@@ -17,6 +17,7 @@ if(!file.exists(dataSet)) {
         unzip(dataSet)
 }
 
+
 subjectTest <- read.table("./UCI HAR Dataset/test/subject_test.txt")
 x_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
 y_test <- read.table("./UCI HAR Dataset/test/y_test.txt")
